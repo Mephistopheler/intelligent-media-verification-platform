@@ -1,0 +1,239 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+.venv/
+ENV/
+
+# Node.js/TypeScript/React
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+.npm
+.eslintcache
+.parcel-cache/
+
+# TypeScript
+*.tsbuildinfo
+dist/
+build/
+
+# React
+/.pnp
+.pnp.js
+/coverage/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.idea
+*.iws
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+yarn.lock
+package-lock.json
+
+# Database
+*.db
+*.sqlite3
+*.sqlite
+postgres_data/
+neo4j_data/
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# ML Models
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+*.model
+*.joblib
+*.pt
+*.pth
+models/
+checkpoints/
+training_logs/
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Kubernetes
+kubeconfig
+*.kubeconfig
+
+# CI/CD
+.circleci/
+.github/
+.gitlab-ci.yml
+.cache
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# PyInstaller
+*.manifest
+*.spec
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+.sage/
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+site/
+
+# mkdocs
+/mkdocs.yml
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre
+.pyre/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/settings.json
+.vscode/launch.json
+
+# MLflow
+mlruns/
+mlartifacts/
+
+# Hyperledger
+/fabric-samples/
+/chaincode/
+channel-artifacts/
+organizations/
+
+# RabbitMQ
+rabbitmq_data/
+
+# Elasticsearch
+elasticsearch_data/
+
+# S3/minio
+minio_data/
+
+# Build outputs
+target/
+*.jar
+*.war
+*.ear
+
+# Mobile (React Native)
+*.keystore
+*.jks
+
+# Audio/Video files (для тестовых данных)
+*.mp4
+*.avi
+*.mov
+*.mp3
+*.wav
+test_media/
+
+# Large files
+*.zip
+*.tar.gz
+*.7z
+
+# Documentation
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
