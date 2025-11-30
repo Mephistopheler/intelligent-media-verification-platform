@@ -19,6 +19,7 @@
 - Docker 20.10+
 - Docker Compose 2.0+
 - Python 3.9+
+- Node.js 16+
 
 ### Технологический стек
 - Backend: FastAPI, Python 3.9+
