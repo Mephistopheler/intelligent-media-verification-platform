@@ -11,7 +11,7 @@
 - REST API для интеграции с внешними системами
 
 ## Техническое задание
-[ТЗ проекта](./docs/ТЗ_ЛР2.pdf)
+[ТЗ проекта](./docs/ТПИС_Лаб2.pdf)
 
 ## Сборка и запуск проекта
 
@@ -19,6 +19,20 @@
 - Docker 20.10+
 - Docker Compose 2.0+
 - Python 3.9+
+
+### Технологический стек
+- Backend: FastAPI, Python 3.9+
+- Frontend: React, TypeScript
+- AI/ML: PyTorch, TensorFlow, OpenCV
+- Базы данных: PostgreSQL, Neo4j, S3-совместимое хранилище
+- Блокчейн: Hyperledger Fabric
+- Инфраструктура: Docker, Kubernetes, Nginx
+- Очереди: RabbitMQ/Kafka
+
+### Code Style
+- Python: PEP8, Black, isort
+- JavaScript: ESLint, Prettier
+- Коммиты: Conventional Commits
 
 ### Локальная разработка
 ```bash
@@ -34,3 +48,6 @@ pip install -r requirements.txt
 
 # Запуск разработческого сервера
 python src/backend/main.py
+
+# Использование Kubernetes
+kubectl apply -f config/kubernetes/
