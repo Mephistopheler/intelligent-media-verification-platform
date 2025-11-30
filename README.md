@@ -34,3 +34,6 @@ pip install -r requirements.txt
 
 # Запуск разработческого сервера
 python src/backend/main.py
+
+# Использование Kubernetes
+kubectl apply -f config/kubernetes/
