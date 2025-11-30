@@ -37,10 +37,11 @@
 ### Локальная разработка
 ```bash
 # Клонирование репозитория
-git clone https://github.com/your-username/intelligent-media-verification-platform.git
+git clone https://github.com/Mephistopheler/intelligent-media-verification-platform.git
 cd intelligent-media-verification-platform
 
 # Запуск сервисов
+cd config
 docker-compose up -d
 
 # Установка зависимостей
